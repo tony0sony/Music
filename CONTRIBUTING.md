@@ -1,5 +1,5 @@
 # Documentation
-- https://github.com/n-ce/ytify/wiki
+- https://github.com/tony0sony/music/wiki
 
 # Changelog
 - https://github.com/tony0sony/music/wiki/Changelog
