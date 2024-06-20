@@ -13,6 +13,7 @@ const fetchChangelog = () => fetch('https://raw.githubusercontent.com/wiki/tony0
 @customElement('update-prompt')
 export class UpdatePrompt extends LitElement {
 
+  
   static styles = css`
   :host {
     background-color: var(--onBg);
