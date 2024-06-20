@@ -2,7 +2,7 @@ import { LitElement, css, html } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 import { until } from 'lit/directives/until.js';
 
-const fetchList = () => fetch('https://api.github.com/repos/n-ce/ytify/commits/main')
+const fetchList = () => fetch('https://api.github.com/repos/tony0sony/music/commits/main')
   .then(res => res.json())
   .then(data => data.commit.message.split('-'))
   .then(array => array.map((c: string) => html`<li>${c}</li>`));
