@@ -236,7 +236,7 @@ if (params.has('q')) {
 function insertYtmPls() {
 
   if (ytmPlsSwitch.hasAttribute('checked'))
-    fetch('https://raw.githubusercontent.com/wiki/n-ce/ytify/ytm_pls.md')
+    fetch('https://raw.githubusercontent.com/wiki/tony0sony/music/ytm_pls.md')
       .then(res => res.text())
       .then(text => text.split('\n'))
       .then(data => {
