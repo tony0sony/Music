@@ -22,7 +22,7 @@ importBtn.addEventListener('change', async () => {
 
 exportBtn.addEventListener('click', () => {
   const link = $('a');
-  link.download = 'ytify_library.json';
+  link.download = 'Anishmusic_library.json';
   link.href = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(getDB(), undefined, 2))}`;
   link.click();
 });
