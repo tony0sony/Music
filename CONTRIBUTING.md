@@ -2,7 +2,7 @@
 - https://github.com/n-ce/ytify/wiki
 
 # Changelog
-- https://github.com/n-ce/ytify/wiki/changelog
+- https://github.com/tony0sony/music/wiki/Changelog
 
 # Development / Todo / Maydo
 - https://github.com/n-ce/ytify/wiki/TODO
