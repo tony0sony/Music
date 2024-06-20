@@ -1,6 +1,6 @@
 {
-  "name": "ytify",
-  "version": "6.9.2",
+  "name": "anish",
+  "version": "0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
