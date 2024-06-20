@@ -32,7 +32,7 @@ export default defineConfig(({ command }) => ({
     VitePWA({
       manifest: {
         "short_name": "Anish",
-        "name": "Listen with ytify",
+        "name": "Listen with anishmusic",
         "description": "32kb/s to 128kb/s youtube audio streaming website. Copy a youtube video link and listen to it as an audio totally free.",
         "icons": [
           {
