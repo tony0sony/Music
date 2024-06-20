@@ -33,24 +33,24 @@
 1. Prerequisites : Node.js , Beginner TypeScript Knowledge. 
 2. Clone repository with
 ```
-git clone https://github.com/n-ce/ytify
+git clone https://github.com/tony0sony/music
 ```
 or
 ```
- gh repo clone n-ce/ytify
+ gh repo clone tony0sony/music
 ```
 3. Move to Directory, Update & Install Dependencies
 ```
 cd ytify ; npm run update; npm i
 ```
-4. If you prefer using DevTools, you may disable eruda in [`vite.config.ts`](https://github.com/n-ce/ytify/blob/main/vite.config.ts)
+4. If you prefer using DevTools, you may disable eruda in [`vite.config.ts`](https://github.com/tony0sony/music/blob/main/vite.config.ts)
 `injectEruda(false),`
 
 5. Start the development server and open localhost 
 ```
 npm run dev -- --open
 ```
-6. Learn More at our [wiki](https://github.com/n-ce/ytify/wiki).
+6. Learn More at our [wiki](https://github.com/tony0sony/music/wiki).
  
 ## Usage 👆
 1. Visit the [Production Deployment](https://ytify.netlify.app/), or if you've installed the project, wherever you're hosting it.
