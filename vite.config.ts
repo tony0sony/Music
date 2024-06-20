@@ -63,7 +63,7 @@ export default defineConfig(({ command }) => ({
         }
       },
       disable: command !== 'build',
-      includeAssets: ['*.woff2', 'ytify_thumbnail_min.webp']
+      includeAssets: ['*.woff2', 'anish_thumbnail_min.webp']
     })
   ],
   css: {
