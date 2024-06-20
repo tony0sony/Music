@@ -31,7 +31,7 @@ export default defineConfig(({ command }) => ({
     injectEruda(command === 'serve'),
     VitePWA({
       manifest: {
-        "short_name": "Ytify",
+        "short_name": "Anish",
         "name": "Listen with ytify",
         "description": "32kb/s to 128kb/s youtube audio streaming website. Copy a youtube video link and listen to it as an audio totally free.",
         "icons": [
