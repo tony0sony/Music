@@ -74,7 +74,7 @@ export class UpdatePrompt extends LitElement {
         if (!this.changelog)
           this.changelog = await fetchChangelog();
         alert(this.changelog);
-      }}>Beep Boop New versions</li>
+      }}>Beep Boop New version</li>
       </details>
       </li>
       </ul>
