@@ -7,7 +7,7 @@ const fetchList = () => fetch('https://api.github.com/repos/tony0sony/music/comm
   .then(data => data.commit.message.split('-'))
   .then(array => array.map((c: string) => html`<li>${c}</li>`));
 
-const fetchChangelog = () => fetch('https://raw.githubusercontent.com/wiki/n-ce/ytify/Changelog.md')
+const fetchChangelog = () => fetch('https://raw.githubusercontent.com/wiki/tony0sony/music/Changelog.md')
   .then(res => res.text());
 
 @customElement('update-prompt')
