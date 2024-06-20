@@ -45,7 +45,7 @@ for (const anchor of anchors) {
       const homeTitle = audio.dataset.title || 'Home';
       document.title = (
         inHome ? homeTitle : routeName
-      ) + ' - ytify';
+      ) + ' - anish music';
     }
     showSection(anchor.id);
   })
