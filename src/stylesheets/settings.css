@@ -6,6 +6,10 @@
   border-radius: var(--roundness);
 }
 
+#instances option[value*='"name":"Custom"'] {
+    display: none;
+}
+
 #settings.view {
   display: block;
 }
