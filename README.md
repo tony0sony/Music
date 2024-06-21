@@ -1,4 +1,4 @@
-netlify.con
+https://netlify.con
 ## Development 🔧
 1. Prerequisites : Node.js , Beginner TypeScript Knowledge. 
 2. Clone repository with
