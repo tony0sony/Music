@@ -5,11 +5,12 @@
   border: var(--border);
   border-radius: var(--roundness);
 }
-
 #settings.view {
   display: block;
 }
-
+#instances option[value*='"name":"Custom"'] {
+    display: none;
+}
 #settings h3 {
   display: flex;
   justify-content: space-between;
