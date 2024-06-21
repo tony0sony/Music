@@ -5,21 +5,10 @@
   border: var(--border);
   border-radius: var(--roundness);
 }
-#instances option[value*='"name":"Custom"'] {
-    display: none;
-}
+
 #settings.view {
   display: block;
 }
-
-#startupTab, label[for="startupTab"] {
-    display: none;
-}
-<style>
-label[for="roundnessChanger"] {
-  display: none;
-}
-</style>
 
 #settings h3 {
   display: flex;
