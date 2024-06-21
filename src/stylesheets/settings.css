@@ -14,6 +14,21 @@
   display: block;
 }
 
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+
+<span class="hidden">
+  <label for="startupTab">Default Tab on Startup</label>
+  <select id="startupTab">
+    <option value="">Home</option>
+    <option value="/search">Search</option>
+    <option value="/library">Library</option>
+  </select>
+</span>
+
 #settings h3 {
   display: flex;
   justify-content: space-between;
