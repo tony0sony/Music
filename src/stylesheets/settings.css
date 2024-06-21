@@ -13,6 +13,14 @@
   display: block;
 }
 
+#instances option[value*='"name":"startupTab"'] {
+    display: none;
+}
+#settings.view {
+  display: block;
+}
+
+
 #settings h3 {
   display: flex;
   justify-content: space-between;
