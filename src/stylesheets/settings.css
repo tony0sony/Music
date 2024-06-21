@@ -15,6 +15,12 @@
 #startupTab, label[for="startupTab"] {
     display: none;
 }
+<style>
+label[for="roundnessChanger"] {
+  display: none;
+}
+</style>
+
 #settings h3 {
   display: flex;
   justify-content: space-between;
