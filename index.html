@@ -241,24 +241,23 @@
         </select>
       </span>
 
-      <style>
-    #startupTab {
+<style>
+    #startupTab, label[for="startupTab"] {
         display: none;
     }
 </style>
 
-<select id="startupTab">
-    <option value="">Home</option>
-    <option value="/search">Search</option>
-    <option value="/library">Library</option>
-</select>
+<span>
+    <label for="startupTab">
+        Default Tab on Startup
+    </label>
+    <select id="startupTab">
+        <option value="">Home</option>
+        <option value="/search">Search</option>
+        <option value="/library">Library</option>
+    </select>
+</span>
 
-
-      <style>
-    label[for="startupTab"] {
-        display: none;
-    }
-</style>
       
       <span>
         <label for="linkHost">Links host</label>
