@@ -9,6 +9,9 @@
 #instances option[value*='"name":"Custom"'] {
     display: none;
 }
+#settings.view {
+  display: block;
+}
 
 #settings h3 {
   display: flex;
