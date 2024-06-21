@@ -53,7 +53,7 @@
 
 #netlifyForm {
   display: none;
-  font-size: medium;
+  font-size: heavy;
   background-color: var(--onBg);
   border: var(--border);
   border-radius: var(--roundness);
