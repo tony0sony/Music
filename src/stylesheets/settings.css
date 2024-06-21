@@ -13,12 +13,10 @@
   display: block;
 }
 
-#instances option[value*='"name":"startupTab"'] {
+#startupTab, label[for="startupTab"] {
     display: none;
 }
-#settings.view {
-  display: block;
-}
+
 
 
 #settings h3 {
