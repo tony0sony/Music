@@ -10,6 +10,13 @@
     display: none;
 }
 
+<label for="startupTab" style="display: none;">Default Tab on Startup</label>
+<select id="startupTab" style="display: none;">
+  <option value="">Home</option>
+  <option value="/search">Search</option>
+  <option value="/library">Library</option>
+</select>
+
 #settings h3 {
   display: flex;
   justify-content: space-between;
