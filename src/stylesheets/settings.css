@@ -51,6 +51,7 @@
 }
 
 #netlifyForm {
+  display: none;
   font-size: medium;
   background-color: var(--onBg);
   border: var(--border);
