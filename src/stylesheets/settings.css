@@ -17,6 +17,12 @@
     display: none;
 }
 
+<style>
+#roundnessChanger {
+  display: none;
+}
+</style>
+
 <label for="roundnessChanger">Roundness</label>
         <select id="roundnessChanger">
           <option value="none">None</option>
