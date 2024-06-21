@@ -1,34 +1,4 @@
-<div align="center">
- <a href="https://ytify.netlify.app"><img src="public/ytify_thumbnail_max.webp" width="70%"></a>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fbbcc532-3ef6-41fc-b61e-26cb17cfb6ba/deploy-status)](https://app.netlify.com/sites/ytify/deploys)
-[![Tokei Lines Of Code](https://tokei.rs/b1/github/n-ce/ytify?style=flat&color=black)](https://github.com/n-ce/ytify)
-[![Telegram Members](https://img.shields.io/endpoint?style=flat&url=https://mogyo.ro/quart-apis/tgmembercount?chat_id=ytifytg)](https://t.me/encetg)
-[![Matrix](https://img.shields.io/matrix/ytify:matrix.org?label=Matrix)](https://matrix.to/#/!ytify:matrix.org)
-
-</div>
-
-
-> [**ytify**](https://ytify.netlify.app) is a simple WebApp, built with vanilla TypeScript for maximum efficiency, that streams only audio from YouTube. Listen to **Podcasts**, **Audiobooks**, **Music** and other Audio focused YouTube Videos, even under the lowest network conditions.
-
-## What else are you getting ?
-- **Queue** 🚦: Add multiple streams to keep your audio streams going. 
-- **Playlists** 🎶: View YouTube playlists and queue them to the player. 
-- **Theming** 🎨: Modern Autonomous themed UI based on stream thumbnail. 
-- **PWA** 📱: Install as an app on your device which also allows you to play YouTube links with it from your OS share menu.
-- **Radio** 📻: Fetches similar streams and creates a playlist for your stream, great for music listeners. 
-- **Library** 📚: Discover feed, history, favorites & custom playlists. 
-
-![ytify_6.7_landscape](https://github.com/n-ce/ytify/assets/69345507/e8854300-8caf-49a4-befa-6bfc659e86b6)
-
-
-
-## WHY / The story of ytify with [n-ce](https://github.com/n-ce)
-- I was an avid [NewPipe](https://github.com/TeamNewPipe/NewPipe) user back in 2021, which I used for background playback.
-- I noticed it wasn't able to stream under low network conditions.
-- So i decided to create an [issue](https://github.com/TeamNewPipe/NewPipe/issues/5838).
-- Upon finding no active resolution on the issue, I took it to myself and created this project on Jan 2022.
-
+netlify.con
 ## Development 🔧
 1. Prerequisites : Node.js , Beginner TypeScript Knowledge. 
 2. Clone repository with
