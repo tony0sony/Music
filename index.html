@@ -261,15 +261,23 @@
       <span>
         <label for="CodecPreference">Codec Preference</label>
         <select id="CodecPreference">
-          <option value="opus">Opus</option>
-          <option value="aac">AAC</option>
           <option value="">Any</option>
+          <option value="opus">Wav</option>
+          <option value="aac">Mp3</option>    
         </select>
       </span>
 
       <h3>Thumbnail</h3>
       <toggle-switch id="thumbnailSwitch">Load</toggle-switch>
       <toggle-switch id="lazyThumbSwitch" checked>Lazy Loading</toggle-switch>
+
+      <style>
+  #thumbnailSwitch {
+    display: none;
+  }
+</style>
+
+<toggle-switch id="thumbnailSwitch">Load</toggle-switch>
 
       <h3>Library</h3>
       <toggle-switch id='discoverSwitch' checked>Store Discoveries</toggle-switch>
